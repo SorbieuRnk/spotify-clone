@@ -1,0 +1,57 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 8px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* === Modern translucent gray scrollbar for dark theme === */
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(180, 180, 180, 0.25);
+  border-radius: 8px;
+  border: 2px solid rgba(18, 18, 18, 0.6);
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 200, 200, 0.4);
+  border-color: rgba(18, 18, 18, 0.8);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(180, 180, 180, 0.3) rgba(18, 18, 18, 0.3);
+}

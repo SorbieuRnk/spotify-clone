@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="Play">
+  <!-- green circular background (Spotify green) -->
+  <circle cx="12" cy="12" r="11" fill="#1DB954"/>
+
+  <!-- white play triangle -->
+  <path d="M10 8.5 L16.2 12 L10 15.5 Z" fill="#ffffff" stroke="none" stroke-linejoin="round"/>
+
+  <!-- subtle outer stroke for contrast (optional; comment out if you don't want it) -->
+  <circle cx="12" cy="12" r="11" fill="none" stroke="#0f8a39" stroke-opacity="0.12" />
+</svg>
